@@ -1,0 +1,98 @@
+html, body, #root {
+  background: #FFFFFF;
+  min-height: 100%;
+  margin: 0px;
+  position: relative;
+}
+
+.App {
+  background-color: #F1F1F1;
+  margin: auto;
+  padding-bottom: 140px;
+  width: 976px;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+.App-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 32px;
+  margin-left: 25px;
+}
+
+.App-header {
+  align-items: center;
+  background-color: #ACB3BB;
+  height: 96px;
+  color: white;
+  display: flex;
+  font-weight: 100;
+}
+
+.App-title {
+  font-size: 1.5em;
+  padding-left: 16px;
+  font-weight: 400;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Content {
+  width: 912px;
+  margin: 32px;
+}
+
+#content-title {
+  margin: 40px 0 30px 0;
+}
+
+h2 {
+  color: #757575;
+  font-size: 24px;
+  font-weight: 500;
+}
+.name {
+  width: 160px;
+  margin-right: 16px;
+}
+.email {
+  width: 250px;
+  padding-left: 20px;
+  margin-right: 16px;
+}
+.number {
+  width: 200px;
+  padding-left: 20px;
+  margin-right: 16px;
+}
+
+.field {
+    height: 40px;
+    font-size: 16px;
+    color: #909090;
+    background-color: #FAFAFA;
+    border: 1px solid #F2F2F3;
+    padding-left: 16px;
+}
+
+.btn {
+    border: none;
+    background-color: #ECECEC;
+    font-size: 16px;
+    font-weight: 600;
+    color: #757575;
+    height: 40px;
+    width: 100px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+
+

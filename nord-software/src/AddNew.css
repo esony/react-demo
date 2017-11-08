@@ -1,0 +1,23 @@
+#addnew-container {
+    background-color: #FFFFFF;
+    display: flex;
+    padding: 16px;
+    /*align-items: center;*/
+}
+
+.user-input{
+    width: 100%;
+}
+
+.user-form {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.action {
+    text-align: right;
+    flex-grow: 1;
+}
+

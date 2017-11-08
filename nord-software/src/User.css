@@ -1,0 +1,48 @@
+.user {
+    /*height: 72px;*/
+    background-color: #FFFFFF;
+    display: flex;
+    /*justify-content: space-evenly;*/
+    align-items: center;
+    margin-top: 1px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.normal {
+    padding: 20px;
+}
+
+.actions {
+    width: 25%;
+    text-align: right;
+    flex-grow: 1;
+}
+.material-icons {
+    height: 24px;
+    width: 24px;
+    color: #909090;
+    margin-left: 16px;
+    cursor: pointer;
+}
+.edit-form {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    width: 100%;
+}
+
+.save {
+    background-color: #07F;
+    color: #FFFFFF;
+}
+.cancel {
+    background-color: #ECECEC;
+    color: #07F;
+}
+.field {
+    height: 40px;
+    box-sizing: border-box;
+    color: #505050;
+}

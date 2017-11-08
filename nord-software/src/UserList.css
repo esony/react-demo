@@ -1,0 +1,27 @@
+.user-list {
+    margin-top: 8px;
+    color: #505050;
+}
+.table-header {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    color: #757575;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+.header-name {
+    cursor: pointer;
+    width: 185px;
+}
+.header-email {
+    cursor: pointer;
+    width: 270px;
+}
+.header-number {
+    cursor: pointer;
+    width: 200px;
+}
